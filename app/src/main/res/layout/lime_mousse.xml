@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="recipe"
+                android:text="Description:\nThis is FABULOUS alone, topped with fruit of any kind or as a frosting on cake. It is fast to make at the last minute. Use more of less lime according to taste.\n\nIngredients:\n - Juice of 4 limes\n - 400 ml (1 pint (473 ml)) heavy whipping cream\n - 397 grams (14 ounces) condensed milk\n - 1 tablespoon powdered sugar\n\nInstructions:\n1. In a bowl, beat the cream with a tablespoon powdered sugar until stiff peaks form.\n\n2. Add the condensed milk and fold gently with a spatula. Pour the lime juice and fold gently until the cream begins to thicken slightly.\n\n3. Pour the mousse into individual bowls and refrigerate about 2 hours.\n\n4. Remove the mousse from the fridge, garnish with lime zest and serve.\n"
                 android:textSize="15sp" />
         </LinearLayout>
     </ScrollView>
