@@ -59,12 +59,12 @@ public class DummyContent {
     public static class DummyItem {
         public final String id;
         public final String title;
-//        public final String details;
+        //public final String recipe;
 
         public DummyItem(String id, String title) {
             this.id = id;
             this.title = title;
-//            this.details = details;
+            //this.recipe = recipe;
         }
 
         @Override
