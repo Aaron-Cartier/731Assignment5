@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="recipe"
+                android:text="Description:\nFlavourful recipe for this farm raised fish that is easy and done in minutes! The fish is broiled with a creamy cheese coating for an impressive flavour and finished with Parmesana on top.\n\nIngredients:\n - 4 Tilapia fillets (defrosted if frozen)\n - 1/4 cup parmesan cheese grated\n - 2 tablespoons butter\n - 1 1/2 tablespoons mayonnaise or dressing\n - 1 tablespoons lemon juice fresh\n - 1 teaspoon dill fresh\n - seasoning salt and pepper\n\nInstructions:\n1. Turn broiler onto high and adjust oven rack to the top.\n\n2. In a small bowl, combine all ingredients except the Tilapia. Set aside.\n\n3. Place Tilapia fillets on a foil lined pan. Broil for 3 minutes.\n\n4. Remove from the oven, flip over and divide the parmesan mixture over the uncooked sides of the Tilapia.\n\n5. Return to the oven and broil an additional 3-4 minutes making sure not to over cook the fish.\n"
                 android:textSize="15sp" />
         </LinearLayout>
     </ScrollView>
