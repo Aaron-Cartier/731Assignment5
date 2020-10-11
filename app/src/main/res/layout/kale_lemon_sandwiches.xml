@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kale_lemon_sandwich" />
+
+            <TextView
+                android:id="@+id/ivRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Description:\nThis sandwich is stunningly delicious and tastes as good as it is healthy. Any greens of choice will work. The lemon adds an almost sweet taste. Be generous with it!\n\nIngredients:\n - 4 slices whole grain breadd\n - 1 bunch of kale or chard, center rib removed and chopped in bite sized pieces (4 cups or more)\n - 1/4-1/3 cup hummus\n - a few green onions, light green parts only (save the rest for soup), sliced thin\n - 2 tbsp chopped cilantro or parsley leaves\n - 1 lemon\n - Finishing oil (sunflower or olive)\n - salt and pepper\n - 1 large tomato, sliced in 4 thick slices (optional)\n\nInstructions:\n1. For the lemon, zest the ends and then remove about 1 inch from each stem end side. Juice these ends and reserve. VERY thinly slice the center section, and remove any seeds as you go.\n\n2. Toast your bread really well, to an almost cracker-like texture.\n\n3. Blanch the kale: bring 3-4 inches of water to a boil, drop in kale cover and cook until tender, 3 minutes. Quickly drop into an ice water bath, or rinse until freezing water to stop the cooking process. Pat/squeeze dry with towels. Sprinkle the tender kale with lemon zest and lemon juice, and tear up into small pieces, and allow to sit while you prep the sandwiches.\n\n4. Spread toast thickly with hummus, sprinkle green onions on the hummus, pile cilantro on top of the green onions and then place a few super thing lemon slices on the cilantro.\n\n5. Then put a big handful of lemoney-kale on top of each piece of bread. Drizzle a little bit of oil on top, and crack some salt and pepper. It's delicious as is, or top with a tomato slice."
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
