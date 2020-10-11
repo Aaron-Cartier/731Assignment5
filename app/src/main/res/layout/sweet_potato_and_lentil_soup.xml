@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="recipe"
+                android:text="Description:\nThis soup is so good, easy and I ate it ALL the first time I made it. If someone is hesitant about plant-based food, this has to be a convincer.\n\nIngredients:\n - 1 leak; thinly sliced\n - 6 cloves garlic; minced\n - 2 cups shiitake mushrooms; soaked for 30 min before slicing\n - 4 cups vegetable broth\n - 2 cups water\n - 1 1/2 cups lentils\n - 1 sweet potato; diced\n - 1 bay leaf\n - 1/2 cup basil\n - dash Black pepper\n - handful spinach\n\nInstructions:\n1. In a large pan, stir-fry leek, mushrooms and garlic for 3 to 4 minutes until leeks are soft.\n\n2. Stir in broth, water, lentils, sweet potato, and bay leaf.\n\n3. Bring to boil then simmer uncovered until lentils and sweet potatoes are soft, about 30 to 40 minutes.\n\n4. Remove bay leaf and puree 2 cups of soup until smooth or use an immersion blender; return to pot, stir in basil and pepper to taste.\n\n5. Just before serving stir in as much as you dare fresh spinach. It will melt in the pot. If you prefer fill individual soup bowls with spinach and spoon hot soup over the spinach. Top with a sprinkle of more fresh basil.\n"
                 android:textSize="15sp" />
         </LinearLayout>
     </ScrollView>
