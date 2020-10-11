@@ -27,9 +27,12 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
-        }
+        addItem(new DummyItem("1","Kale/Lemon Sandwiches"));
+        addItem(new DummyItem("2","Mango-Lime Bean Salad"));
+        addItem(new DummyItem("3","Sweet Potato and Lentil Soup With Shiitake Mushrooms"));
+        addItem(new DummyItem("4","Lime Mousse"));
+        addItem(new DummyItem("5","Broiled Tilapia Parmesan"));
+
     }
 
     private static void addItem(DummyItem item) {
@@ -37,36 +40,36 @@ public class DummyContent {
         ITEM_MAP.put(item.id, item);
     }
 
-    private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
-    }
-
-    private static String makeDetails(int position) {
-        StringBuilder builder = new StringBuilder();
-        builder.append("Details about Item: ").append(position);
-        for (int i = 0; i < position; i++) {
-            builder.append("\nMore details information here.");
-        }
-        return builder.toString();
-    }
+//    private static DummyItem createDummyItem(int position) {
+//        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
+//    }
+//
+//    private static String makeDetails(int position) {
+//        StringBuilder builder = new StringBuilder();
+//        builder.append("Details about Item: ").append(position);
+//        for (int i = 0; i < position; i++) {
+//            builder.append("\nMore details information here.");
+//        }
+//        return builder.toString();
+//    }
 
     /**
      * A dummy item representing a piece of content.
      */
     public static class DummyItem {
         public final String id;
-        public final String content;
-        public final String details;
+        public final String title;
+//        public final String details;
 
-        public DummyItem(String id, String content, String details) {
+        public DummyItem(String id, String title) {
             this.id = id;
-            this.content = content;
-            this.details = details;
+            this.title = title;
+//            this.details = details;
         }
 
         @Override
         public String toString() {
-            return content;
+            return title;
         }
     }
 }

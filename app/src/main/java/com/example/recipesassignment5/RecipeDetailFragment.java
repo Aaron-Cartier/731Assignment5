@@ -52,7 +52,7 @@ public class RecipeDetailFragment extends Fragment {
             Activity activity = this.getActivity();
             CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
             if (appBarLayout != null) {
-                appBarLayout.setTitle(mItem.content);
+                appBarLayout.setTitle(mItem.title);
             }
         }
     }
@@ -64,9 +64,22 @@ public class RecipeDetailFragment extends Fragment {
 
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.recipe_detail)).setText(mItem.details);
+//            if (mItem.id.equals("1")) {
+//                rootView = inflater.inflate(R.layout.kale_lemon_sandwiches, container, false);
+//            }
+//            if (mItem.id.equals("2")) {
+//                rootView = inflater.inflate(R.layout.mango_lime_bean_salad, container, false);
+//            }
+//            if (mItem.id.equals("3")) {
+//                rootView = inflater.inflate(R.layout.sweet_potato_and_lentil_soup, container, false);
+//            }
+//            if (mItem.id.equals("4")) {
+//                rootView = inflater.inflate(R.layout.lime_mousse, container, false);
+//            }
+//            if (mItem.id.equals("5")) {
+//                rootView = inflater.inflate(R.layout.broiled_tilapia_parmesan, container, false);
+//            }
         }
-
         return rootView;
     }
 }
